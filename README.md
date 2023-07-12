@@ -27,11 +27,9 @@ Usage
 * Press the "q" key to quit the script.
 
 Important Notes
-Make sure you have the necessary permissions to access the webcam device.
-Adjust the webcam resolution by modifying the cap.set function calls with your desired width and height values.
-The script uses a grayscale image for motion detection. If you want to use color images, remove the line frame_bw = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) and modify the subsequent code accordingly.
-The script uses a Gaussian blur to reduce noise in the image. Adjust the (21, 21) and (5, 5) values in the cv2.GaussianBlur function calls if needed.
-The alarm sound is played five times in a loop. You can modify the number of repetitions and the frequency/duration of the beep sound by changing the parameters in the winsound.Beep function call within the beep_alarm function.
-Adjust the alarm counter threshold (if alarm_counter > 20) to change when the alarm is triggered.
-License
-This code is licensed under the MIT License. Feel free to modify and distribute it as needed.
+* Make sure you have the necessary permissions to access the webcam device.
+* Adjust the webcam resolution by modifying the cap.set function calls with your desired width and height values.
+* The script uses a grayscale image for motion detection. If you want to use color images, remove the line frame_bw = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) and modify the subsequent code accordingly.
+* The script uses a Gaussian blur to reduce noise in the image. Adjust the (21, 21) and (5, 5) values in the cv2.GaussianBlur function calls if needed.
+* The alarm sound is played five times in a loop. You can modify the number of repetitions and the frequency/duration of the beep sound by changing the parameters in the winsound.Beep function call within the beep_alarm function.
+* Adjust the alarm counter threshold (if alarm_counter > 20) to change when the alarm is triggered.
