@@ -4,26 +4,27 @@ This code is a Python script that uses the threading module to create a separate
 Prerequisites
 Before running this script, make sure you have the following installed:
 
-Python 3.x
-OpenCV (cv2)
-imutils library
-winsound library
-You can install the required libraries using pip:
+* Python 3.x
+* OpenCV (cv2)
+* imutils library
+* winsound library
+* You can install the required libraries using pip:
 
-Copy code
-pip install opencv-python imutils
+    --Copy code--
+        pip install opencv-python imutils
+
 Usage
-Connect a webcam to your computer.
+* Connect a webcam to your computer.
 
-Run the script using the following command:
+* Run the script using the following command:
 
-Copy code
-python script.py
-The webcam feed will be displayed in a new window titled "Cam".
+  --Copy code--
+      python script.py
+* The webcam feed will be displayed in a new window titled "Cam".
 
-Press the "t" key to toggle the alarm mode. In alarm mode, the script compares the current frame with the initial frame and detects motion. If motion is detected, an alarm counter is incremented. If the alarm counter exceeds a threshold value, an alarm sound is played.
+* Press the "t" key to toggle the alarm mode. In alarm mode, the script compares the current frame with the initial frame and detects motion. If motion is detected, an alarm counter is incremented. If the alarm counter exceeds a threshold value, an alarm sound is played.
 
-Press the "q" key to quit the script.
+* Press the "q" key to quit the script.
 
 Important Notes
 Make sure you have the necessary permissions to access the webcam device.
